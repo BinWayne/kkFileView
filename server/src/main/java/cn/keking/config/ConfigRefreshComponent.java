@@ -44,7 +44,9 @@ public class ConfigRefreshComponent {
                 String ftpUsername;
                 String ftpPassword;
                 String ftpControlEncoding;
+
                 String configFilePath = ConfigUtils.getCustomizedConfigPath();
+                LOGGER.info(configFilePath+"----");
                 String baseUrl;
                 String trustHost;
                 String pdfDownloadDisable;
